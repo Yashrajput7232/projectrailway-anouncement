@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Text to Speech Translator</title>
+</head>
+<body>
+    <h1>Text to Speech Translator</h1>
+    
+    <form method="POST" action="/">
+        <textarea name="text_to_translate" placeholder="Enter text to translate..." rows="4" cols="50"></textarea>
+        <br>
+        <label for="target_language">Select Target Language:</label>
+        <select name="target_language" id="target_language">
+            <option value="es" {% if target_language == 'es' %}selected{% endif %}>Spanish</option>
+            <option value="mr" {% if target_language == 'mr' %}selected{% endif %}>Marathi</option>
+            <option value="ar" {% if target_language == 'ar' %}selected{% endif %}>Arabic</option>
+            <option value="nl" {% if target_language == 'nl' %}selected{% endif %}>Dutch</option>
+            <option value="bn" {% if target_language == 'bn' %}selected{% endif %}>Bengali</option>
+            <!-- Add more language options here -->
+        </select>
+        <br>
+        <input type="submit" value="Translate and Play">
+    </form>
+
+    {% if translated_text %}
+    <h2>Translated Text:</h2>
+    <p>{{ translated_text }}</p>
+    {% endif %}
+
+    {% if audio_url %}
+    <h2>Translated Audio:</h2>
+    <audio controls >
+        <source src="{{ audio_url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    {% endif %}
+</body>
+</html>

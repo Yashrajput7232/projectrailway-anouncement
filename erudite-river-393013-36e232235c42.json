@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "erudite-river-393013",
+  "private_key_id": "36e232235c42190172a0dce064c5e871db5b6974",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCkLSK7R/6/PAhD\nlFkHOv28a4i5l6VlxtlVzP/9SBu4YfnCgxLEnrfgMwFy6qOtBirJANtj0tGdJ05S\nwXNqyL2hjzralt35KwI41J1wGG18f76ignOWybA3oFLEWlJlGe1dLb9Cm6Nh6p4Q\nxuHqRwbSQKOEVfeeTiUhqg+oIgfLDrbBdU6qRwY054MXThcC1h3r41n48zbzb4lw\n9kL8NrfmMJopP6R9amVopru9n2bHpLLz6HhwaIc2mTOjgcnSmD4EXrnZZXX6zO6s\nBCv9lGWvZje20e7mIa5iwTZzj1Jsn9KGe39rQQlYXyqTsM4IPq2YnTuh+XX8PKKU\nYl+1RDprAgMBAAECggEAAc2cTj6tL2aDMYYFY4BXXX44EANe+RSYOhc4gvMLmUvV\nYjiHhT24OuMnuesv0jlGHdNyyJ1Kv67sO+ZzoRGeKF8aJpQPnhDF3N/tvSRxJDPq\nLeWNS9oTo5jEL/OAaJHcIVdDFk7Ls/1pFqAVYFOLx9Vj6ZLHV6eRRG+WVAkDphkS\n8p9Ci+ONZHOP4Fyis8aNdRNSXSa02Mjyvail6UGIvyqYq17r1/bNvdIJ63MCe2iJ\nERyVm8NNiDaB0N/Zb2GbjxF5aYljy9WLF8cBGpFojv8pWHR8iTslL4TksFpA3E04\nFbB914/N7i5KCK1Yag2KKHbSTRCKK7k1tB0vDcgFSQKBgQDib3VJGS09vSNIRnae\nvV6K6yJjiwbJnT4oTXorZPYUgFYPjgXhDEPady0pb92zXPfjXnwE8a85kfk0qaYw\n7EStXzvJDQc6ogsn2Fu+9EsgQuJEB4pNP2IgdZHizEjjxn99+QvyhrUucotNQJCL\nEJPz531+CpgwGTYCKmY2vXKotQKBgQC5nK9MpQ2pdBV8o5AIGBDrsXNGEe0jnNPe\nZcha6izKso2QqgYwPetlPD2O7eW3rZpceimLoIrkZjqyBNwgm0SmGX6rufHH9sKV\nxlJmXB0gAdj5TFNM0lKTc6pPJ+Z41i60HSDnbGPGj0EdyABcyd//nLd5oXdPm/ka\nJWI+iHjqnwKBgGqO2xnYQEMSk9z6U+4l3azwNFG15i7Q0aRzuW9cZrWFI3rUcg3T\nEMdpWBZs717t/DXCjAhjl/s2p5jR0USqmzMfYuodOG6uPSO2HI7DNetrrkEnbz0k\n+8+cpFefnRmbmvm0TpwGKpM+EjH7lUnsNkQMhzDeWXohExp3y3wtMR0VAoGAcdVf\nSVE8tL0l5F/nmJ8x2Wrl+IZL+nhXE+E2ZFOUDug8nAk6bGG9OUQduMe8B88niSm+\nyww1wmfT/ZOvcSvoiTm/jxAl8W4r3nFX3cEGd7fKWvJtcALZc+cO/ybIWTl6QSpQ\nIL4/3unClMIxPrbscrapa6YUJzXQKzHcM9+80J8CgYBPw/Lg0BYTMWDx4mFcvfSf\nk8delLeuomgPzr61quCYYJ5/hCh1CYjzkn6bryAF7VXsfXjt+UB5od5dwuZ3gE1X\n6O2eLnYy+eOgHGaU4MlE2Tz4GN5Pc2KaRAZMMH20CE+/WgbjsT6MaRMeLDQw3ViQ\nhB8kDQRW9K7Y3/S8KymXwg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "railways-proj@erudite-river-393013.iam.gserviceaccount.com",
+  "client_id": "109202471078200018790",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/railways-proj%40erudite-river-393013.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

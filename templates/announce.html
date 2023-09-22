@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Text to Speech Translator</title>
+</head>
+<body>
+    <h1>Text to Speech Translator - Announcement Service</h1>
+    
+    <form method="POST" action="/announce">
+        <textarea name="text_to_announce" placeholder="Enter text to announce..." rows="4" cols="50"></textarea>
+        <br>
+        <label for="target_language">Select Target Language:</label>
+        <select name="target_language" id="target_language">
+            <option value="mr">Marathi</option>
+            <option value="es">Spanish</option>
+            <option value="ar">Arabic</option>
+            <option value="nl">Dutch</option>
+            <option value="bn">Bengali</option>
+            <!-- Add more language options here -->
+        </select>
+        <br>
+        <input type="submit" value="Announce">
+    </form>
+
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>

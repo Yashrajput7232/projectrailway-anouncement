@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <title>Text to Speech Translator</title>
+</head>
+<body>
+    <h1>Text to Speech Translator</h1>
+    
+    <form method="GET" action="/translate">
+        <button class="btn" type="submit">Translation Service</button>
+    </form>
+
+    <form method="GET" action="/announce">
+        <button class="btn" type="submit">Announcement Service</button>
+    </form>
+</body>
+</html>
